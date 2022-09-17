@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00B6FF;
+  }
+
+  li {
+    padding: 18px 14px;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+    background-color: #005e83;
+  } */
+
+  /* .button {
+    background-color: #00B6FF;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+   */
+  .button1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  i{
+    margin-left: 5px;
+    padding-top: 2px;
+  }
