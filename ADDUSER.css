@@ -67,7 +67,7 @@ form .basic-details .input-box{
 form .basic-details .input-box .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 .basic-details .input-box input{
   height: 45px;
@@ -80,7 +80,7 @@ form .basic-details .input-box .details{
 
 form .gender-details .gender-title{
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 form .gender-details .category{
@@ -120,7 +120,7 @@ form .gender-details .category{
 .container2 form  .father-details .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 form .father-details .input-box{
@@ -130,7 +130,7 @@ form .father-details .input-box{
 .container2 form .father-details .input-box .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 .container2 .father-details .input-box input{
@@ -145,7 +145,7 @@ form .father-details .input-box{
 .container2 form  .mother-details .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 form .mother-details .input-box{
@@ -155,7 +155,7 @@ form .mother-details .input-box{
 form .mother-details .input-box .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 .mother-details .input-box input{
@@ -169,7 +169,7 @@ form .mother-details .input-box .details{
 .container2 form  .child-details .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 form .child-details .input-box{
@@ -179,7 +179,7 @@ form .child-details .input-box{
 form .child-details .input-box .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 .child-details .input-box input{
@@ -193,7 +193,7 @@ form .child-details .input-box .details{
 .container2 form  .sibling-details .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 form .sibling-details .input-box{
@@ -202,7 +202,7 @@ form .sibling-details .input-box{
 form .sibling-details .input-box .details{
   display: block;
   margin-bottom: 5px;
-  font-weight: 500;
+  font-weight: 1000;
 }
 
 .sibling-details .input-box input{
