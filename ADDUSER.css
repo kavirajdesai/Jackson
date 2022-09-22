@@ -264,3 +264,13 @@ form .med-details .input-box .details{
 hr{
   background-color: #f1f1f1;
 }
+
+button{
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  height: 25px;
+  color: #FFFFFF;
+  background-color: #00B6FF;
+  border:none; 
+}
