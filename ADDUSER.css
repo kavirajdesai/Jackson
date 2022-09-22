@@ -3,7 +3,9 @@ body{
   /* height: 200vh; */
   justify-content: center;
   align-items: center;
-  padding:10px;
+  background-color: rgb (0,0,0);
+  background-color: rgb(0,0,0, 0.4);
+  /* padding:10px; */
 }
 /*
 ul {
@@ -38,7 +40,7 @@ ul {
 .container{
   max-width: 700px;
   width: 100%;
-  background: #00B6FF;
+  background: #FFFFFF;
   padding: 25px 30px;
   border-radius: 5px;
 }
@@ -70,9 +72,10 @@ form .basic-details .input-box .details{
 .basic-details .input-box input{
   height: 45px;
   width: 100%;
-  padding:10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+
 }
 
 form .gender-details .gender-title{
@@ -110,39 +113,146 @@ form .gender-details .category{
   display: flex;
   flex: wrap;
   justify-content: space-between;
-  margin:2px solid black;
+  padding: 10px;
 }
 
 
-form  .input-details .details{
+.container2 form  .father-details .details{
   display: block;
   margin-bottom: 5px;
   font-weight: 500;
 }
-.input-details input{
+
+form .father-details .input-box{
+    margin: 10px 0 10px 0;
+}
+
+.container2 form .father-details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.container2 .father-details .input-box input{
   height: 45px;
   width: 90%;
-  padding:10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+
 }
 
-.container3 {
-  display: flex;
-  flex: wrap;
-  justify-content: space-between;
-  margin:2px solid black;
-}
-
-form  .input-box .details{
+.container2 form  .mother-details .details{
   display: block;
   margin-bottom: 5px;
   font-weight: 500;
 }
-.med .input-box input{
+
+form .mother-details .input-box{
+    margin: 10px 0 10px 0;
+}
+
+form .mother-details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.mother-details .input-box input{
+  height: 45px;
+  width: 90%;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.container2 form  .child-details .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+form .child-details .input-box{
+    margin: 10px 0 10px 0;
+}
+
+form .child-details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.child-details .input-box input{
+  height: 45px;
+  width: 90%;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.container2 form  .sibling-details .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+form .sibling-details .input-box{
+    margin: 10px 0 10px 0;
+}
+form .sibling-details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.sibling-details .input-box input{
+  height: 45px;
+  width: 90%;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.container3{
+  max-width: 700px;
+  width: 100%;
+  /* background: #00B6FF; */
+  /* padding: 25px 30px; */
+  border-radius: 5px;
+}
+
+.container3 .title{
+  font-size: 25px;
+  font-weight: 1000;
+  text-decoration: underline;
+}
+
+.container3 form .med-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding:10px; */
+  /* border:10px; */
+}
+
+form .med-details .input-box{
+    margin: 10px 0 10px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+form .med-details .input-box .details{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 1000;
+}
+.med-details .input-box input{
   height: 45px;
   width: 100%;
-  padding:10px;
-  border: 1px solid black;
-  border-radius: 5px;
+  /* padding:10px; */
+  border: none;
+  background-color: #f1f1f1;
+}
+
+hr{
+  background-color: #f1f1f1;
 }
